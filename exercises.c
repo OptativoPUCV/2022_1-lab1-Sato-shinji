@@ -37,7 +37,14 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
+   int vectorSuma[m], i;
+   int ultimaPos = n-1;
+   *suma = 0;
 
+   for(i = 0; i < m; i++)
+   {
+      *suma += a[ultimaPos-i];
+   }
 }
 
 /*
