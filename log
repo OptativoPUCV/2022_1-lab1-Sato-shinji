@@ -43,3 +43,8 @@ exercises.c:67:11: error: 'persona' is used uninitialized in this function [-Wer
 cc1.exe: all warnings being treated as errors
 Compilation failed
 e922bfd
+Sun Mar 13 20:38:34 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+b50285e
