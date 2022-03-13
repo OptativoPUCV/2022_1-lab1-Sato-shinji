@@ -21,3 +21,14 @@ Sun Mar 13 20:28:53 HSP 2022:
  tests:  2|5
 total_score: 20/70
 fe177c6
+Sun Mar 13 20:35:36 HSP 2022: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:70:11: error: function returns address of local variable [-Werror=return-local-addr]
+    return &persona;
+           ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+2ed255a
